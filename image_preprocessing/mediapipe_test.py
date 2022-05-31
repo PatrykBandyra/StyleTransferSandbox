@@ -7,7 +7,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_selfie_segmentation = mp.solutions.selfie_segmentation
 
 # For static images:
-IMAGE_FILES = ['original2.jpg']
+IMAGE_FILES = ['original.png']
 bg_image = cv2.imread('this_is_fine.jpeg')
 BG_COLOR = (192, 192, 192)  # gray
 MASK_COLOR = (255, 255, 255)  # white
